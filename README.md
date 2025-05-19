@@ -1,12 +1,12 @@
-# 🏠 House Price Prediction Web App
+# Demand Forecast Web App
 
-This is a Streamlit-based web application for predicting house prices based on:
-- **Area (square meters)**
-- **Floor number**
-- **Number of rooms**
+A simple Streamlit web application that uses a trained Prophet model to forecast daily demand for the next N days.
 
-## 🔍 About the Project
+## Features
+- Input: Number of future days to predict
+- Output: Forecast chart and forecast table
+- Powered by: Prophet, Plotly, Streamlit
 
-The model was trained using a synthetic dataset and uses a simple **Linear Regression** algorithm to predict house prices. The web interface allows users to input data and receive instant predictions.
-
-
+## How to run
+1. Install requirements: `pip install -r requirements.txt`
+2. Run the app: `streamlit run app.py`
